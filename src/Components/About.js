@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./About.css";
 class About extends Component {
   render() {
     if (this.props.data) {
@@ -26,13 +26,13 @@ class About extends Component {
             />
           </div>
           <div className="nine columns main-col">
-            <h2>About Me</h2>
+            <h2 className="poka">About Me</h2>
 
-            <p>{bio}</p>
+            <p style={{ color: "#E3EDA4" }}>{bio}</p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
-                <p className="address">
+                <p className="address" style={{ color: "#E3EDA4" }}>
                   <span>{name}</span>
                   <br />
                   <span>
@@ -43,7 +43,7 @@ class About extends Component {
                   <br />
                   <span>{phone}</span>
                   <br />
-                  <span style={{ color: "white" }}>{email}</span>
+                  <span>{email}</span>
                 </p>
               </div>
               <div className="columns download">

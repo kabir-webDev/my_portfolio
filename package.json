@@ -26,5 +26,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabir-webDev/my_portfolio.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Kabir Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabir-webDev/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/kabir-webDev/my_portfolio#readme"
 }
